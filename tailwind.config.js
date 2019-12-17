@@ -254,6 +254,9 @@ module.exports = {
       ],
       Mont: [
         'Mont'
+      ],
+      Heebo: [
+        'Heebo'
       ]
     },
     fontSize: {

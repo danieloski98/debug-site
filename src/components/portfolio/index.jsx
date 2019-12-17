@@ -19,7 +19,7 @@ export class Portfolio extends Component {
                     <div className="text-center text-blue-500 text-xl font-Poppins">
                         Portfolio
                     </div>
-                    <div className="text-center text-gray-500 font-Mont mt-4">
+                    <div className="text-center text-black font-Mont mt-4 font-Heebo">
                         Some Awesome projects we have worked on.
                     </div>
 

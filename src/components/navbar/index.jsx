@@ -2,6 +2,7 @@ import React, { Fragment } from 'react';
 import Facebook from '../../assets/icons/facebook.svg';
 import Twitter from '../../assets/icons/twitter.svg';
 import Instagram from '../../assets/icons/instagram.svg';
+import Company from '../../assets/icons/company.svg';
 
 export default class Navbar extends React.Component {
     render() {
@@ -11,10 +12,10 @@ export default class Navbar extends React.Component {
                 <div className="flex justify-between">
 
                     <div className="flex">
-                        <div className="logo">
-                            <p className="font-bold text-blue-500 mt-5 text-2xl  font-Poppins">DEBUG</p>
+                        <div className="logo pt-4">
+                            <img src={Company} alt="" width="150"/>
                         </div>
-                        <div className="links flex justify-around pt-6 ml-40 font-bold text-gray-500 mt-1">
+                        <div className="links flex justify-around font-Heebo pt-6 ml-40 text-black mt-1">
                             <div>
                                 <a href="index.html">About</a>
                             </div>

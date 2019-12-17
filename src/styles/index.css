@@ -9,6 +9,11 @@
     src: url('./assets/fonts/Montserrat-Medium.ttf');
   }
 
+  @font-face{
+    font-family: 'Heebo';
+  
+    src: url('./assets/fonts/Heebo-Regular.ttf');
+  }
 
 @tailwind base;
 

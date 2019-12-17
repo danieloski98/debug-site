@@ -14,16 +14,18 @@ export default class Banner extends Component {
            <Fragment>
                <div className="pl-16 flex">
                    <div className="left-section flex-1 h-64 ">
-                       <h1 className="text-4xl text-gray-600 font-Poppins">A <span className="text-blue-500">Digital Creative <br />Agency</span> from Nigeria</h1>
-                       <p className="text-gray-600 mt-3 pr-24 font-Mont">
+                       <h1 className="text-4xl text-black font-Poppins">A <span className="text-blue-500">Software Development <br />Company</span> from Port Harcourt</h1>
+                       <p className="text-black mt-3 pr-24 font-Heebo">
                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, culpa earum dolores unde veniam suscipit aperiam eaque? Dolore, qui beatae dolorem mollitia possimus aliquid, corrupti voluptatum illum, culpa esse placeat.
                        </p>
                        <div>
-                           <OutlineButton message="Contact Us" action={this.showMessage} />
+                           <button className=" p-4 mt-6 rounded-l-full rounded-r-full bg-blue-500 w-56 shadow-xl text-white text-sm font-Heebo">
+                               Contact Us
+                           </button>
                        </div>
-                       <div className="font-Mont text-gray-600 more-content pt-6">
+                       <div className="font-Mont text-black more-content pt-6">
                            <img src={Arrow_Down} alt="" className="h-10 mt-10"/>
-                           <p className="pt-2 text-sm">Scroll for more content</p>
+                           <p className="pt-2 text-sm font-Heebo">Scroll for more content</p>
                        </div>
                    </div>
                    <div className="flex-1 overflow-x-hidden overflow-y-auto">

@@ -10,7 +10,7 @@ export class Partners extends Component {
                     <div className="text-center text-blue-600 font-Poppins text-xl">
                         Partners
                     </div>
-                    <div className="text-center text-gray-600 font-Poppins text-3xl mt-10">
+                    <div className="text-center text-black font-Poppins text-3xl mt-10">
                         Brands we'ev worked with.
                     </div>
                 </div>

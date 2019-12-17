@@ -10,6 +10,12 @@
   src: url('./assets/fonts/Montserrat-Medium.ttf');
 }
 
+@font-face{
+  font-family: 'Heebo';
+
+  src: url('./assets/fonts/Heebo-Regular.ttf');
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -3618,6 +3624,10 @@ video {
 
 .font-Mont{
   font-family: Mont;
+}
+
+.font-Heebo{
+  font-family: Heebo;
 }
 
 .font-hairline{
@@ -11363,6 +11373,10 @@ video {
 
   .sm\:font-Mont{
     font-family: Mont;
+  }
+
+  .sm\:font-Heebo{
+    font-family: Heebo;
   }
 
   .sm\:font-hairline{
@@ -19111,6 +19125,10 @@ video {
     font-family: Mont;
   }
 
+  .md\:font-Heebo{
+    font-family: Heebo;
+  }
+
   .md\:font-hairline{
     font-weight: 100;
   }
@@ -26857,6 +26875,10 @@ video {
     font-family: Mont;
   }
 
+  .lg\:font-Heebo{
+    font-family: Heebo;
+  }
+
   .lg\:font-hairline{
     font-weight: 100;
   }
@@ -34601,6 +34623,10 @@ video {
 
   .xl\:font-Mont{
     font-family: Mont;
+  }
+
+  .xl\:font-Heebo{
+    font-family: Heebo;
   }
 
   .xl\:font-hairline{

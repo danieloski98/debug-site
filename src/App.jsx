@@ -4,6 +4,8 @@ import Banner from './components/banner/index.jsx';
 import Services from './components/services/index.jsx';
 import Portfolio from './components/portfolio/index.jsx';
 import Partners from './components/partners/index.jsx';
+import Message from './components/message/index.jsx';
+import Footer from './components/footer/index.jsx';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <Services />
       <Portfolio />
       <Partners />
+      <Message />
+      <Footer />
     </div>
   );
 }

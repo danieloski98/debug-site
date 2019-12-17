@@ -20,10 +20,10 @@ export class Services extends Component {
                    <div className="text-center text-2xl text-blue-500 font-Poppins">
                        Services
                    </div>
-                   <div className="text-center text-4xl mt-8 text-gray-500 font-Poppins">
+                   <div className="text-center text-4xl mt-8 text-black font-Poppins">
                       What we do
                    </div>
-                   <div className="text-center text-gray-500 text-lg mt-6 pl-64 pr-64">
+                   <div className="text-center text-black text-lg mt-6  font-Heebo">
                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam vero deleniti ducimus nostrum modi voluptatum quisquam nihil, iste officiis sed, molestiae saepe voluptate neque quia sequi incidunt tempore animi omnis autem! Sit ex molestias nihil Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quaerat facere saepe commodi magnam quod!
                    </div>
 
@@ -46,12 +46,12 @@ export class Services extends Component {
                                    <div>
                                        <img src={Brand} alt=""/>
                                    </div>
-                                   <div className="text-2xl mt-2 text-gray-500 font-Poppins ml-10">
+                                   <div className="text-2xl mt-2 text-black font-Poppins ml-4">
                                        Branding
                                    </div>
                                </div>
                                <div>
-                                   <div className=" mt-2 write-up text-gray-500">
+                                   <div className=" mt-2 write-up text-gray-800 font-Heebo">
                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi a esse maxime at exercitationem possimus molestiae illo ipsum nihil laudantium Lorem ipsum.
                                    </div>
                                </div>
@@ -62,12 +62,12 @@ export class Services extends Component {
                                    <div>
                                        <img src={Digital} alt=""/>
                                    </div>
-                                   <div className="text-2xl text-gray-500 font-Poppins ml-10 mt-2">
+                                   <div className="text-2xl text-black font-Poppins ml-4 mt-2">
                                        Digital Marketting
                                    </div>
                                </div>
                                <div>
-                                   <div className=" mt-2 write-up text-gray-500">
+                                   <div className=" mt-2 write-up text-gray-800 font-Heebo">
                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi a esse maxime at exercitationem possimus molestiae illo ipsum nihil laudantium Lorem ipsum dolor.
                                    </div>
                                </div>
@@ -78,12 +78,12 @@ export class Services extends Component {
                                    <div>
                                        <img src={Web} alt=""/>
                                    </div>
-                                   <div className="text-2xl text-gray-500 font-Poppins ml-10 mt-2">
+                                   <div className="text-2xl text-black font-Poppins ml-4 mt-2">
                                        Web and Mobile Development
                                    </div>
                                </div>
                                <div>
-                                   <div className=" mt-2 write-up text-gray-500">
+                                   <div className=" mt-2 write-up text-gray-800 font-Heebo">
                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi a esse maxime at exercitationem possimus molestiae illo ipsum nihil laudantium Lorem ipsum dolor.
                                    </div>
                                </div>

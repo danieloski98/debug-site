@@ -1,0 +1,22 @@
+.box .write-up{
+    padding-right: 30px;
+}
+
+ .button {
+    width: 250px;
+    height: 50px;
+    appearance: none;
+    font-size: 12px;
+    transition: 0.5s ease-in-out;
+    outline: none;
+    color: #3182ce;
+    background-position: 0% 100%;
+    background: linear-gradient(to right, white 50%, #4299e1 50%);
+    background-size: 200%;
+}
+
+ .button:hover {
+    background-position: 100% 50%;
+    background-color: #63b3ed;
+    color: white;
+}

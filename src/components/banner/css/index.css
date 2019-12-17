@@ -1,0 +1,64 @@
+.left-section {
+    padding-top: 120px;
+}
+
+.left-section .button {
+    width: 250px;
+    height: 50px;
+    appearance: none;
+    font-size: 12px;
+    transition: 0.5s ease-in-out;
+    outline: none;
+    color: #3182ce;
+    background-position: 0% 100%;
+    background: linear-gradient(to right, white 50%, #4299e1 50%);
+    background-size: 200%;
+}
+
+.left-section .button:hover {
+    background-position: 100% 50%;
+    background-color: #63b3ed;
+    color: white;
+}
+
+
+.banner-img {
+    margin-top: -100px;
+    margin-left: 20vh;
+    width: 150vh;
+    height: 100vh;
+    background-image: url('../../../assets/imgs/second.png');
+    background-size: cover;
+}
+
+.more-content img {
+    animation: bounce 1.5s ease-in-out;
+    animation-iteration-count: infinite;
+    transition: all 1s ease-in-out;
+}
+
+/** animations **/
+
+
+
+@keyframes bounce {
+    0%{
+        margin-top: 0px;
+    }
+
+    25% {
+        margin-top: 3px;
+    }
+
+    50% {
+        margin-top: 6px;
+    }
+
+    75% {
+        margin-top: 9px;
+    }
+
+    100% {
+        margin-top: 0px;
+    }
+}

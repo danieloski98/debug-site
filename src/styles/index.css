@@ -1,0 +1,17 @@
+
+@font-face{
+    font-family: 'Poppins';
+    src: url('./assets/fonts/Poppins-Medium.ttf');
+  }
+  
+  @font-face{
+    font-family: 'Mont';
+    src: url('./assets/fonts/Montserrat-Medium.ttf');
+  }
+
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
